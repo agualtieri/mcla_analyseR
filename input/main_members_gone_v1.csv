@@ -1,0 +1,5 @@
+"B.10: For each individual not living in your household, please record the following information:",Name,Gender,Year of birth,Month of birth,Calculate Age,Relationship to the head of household,Year of leaving,Month of leaving,Reasons for not living there,Other Reasons for not living there,RepeatNumber,_index,_parent_table_name,_parent_index,_submission__id,_submission__uuid,_submission__submission_time,_submission__validation_status
+,V,Female,2001,1,18,Son/Daughter,2019,1,Displaced,,1,1,Yemen_MCLA_2019_DRAFT_v5,5,59279352,026032e3-0d40-41f8-a2ab-dab97419dcde,2019-06-23T10:11:15,
+,B,Male,1975,1,44,Wife/Husband,2019,1,Displaced,,1,2,Yemen_MCLA_2019_DRAFT_v5,5,59279352,026032e3-0d40-41f8-a2ab-dab97419dcde,2019-06-23T10:11:15,
+,Q,Female,2015,1,4,Son/Daughter,2018,4,Sent away to live with other relatives,,1,3,Yemen_MCLA_2019_DRAFT_v5,9,59279481,40004d38-3737-4cbe-a4f3-c2f8630e5106,2019-06-23T10:12:33,
+,G,Male,1980,5,39,Parent,2019,1,Away for work opportunities,,1,4,Yemen_MCLA_2019_DRAFT_v5,10,59279493,8ce8b051-cbed-4bfa-a2ec-b26330182960,2019-06-23T10:12:48,
