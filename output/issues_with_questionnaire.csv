@@ -1,0 +1,6 @@
+"","issue","affected_files","affected_variables","severity","comment"
+"1","data is not a data.frame","data","ALL","critical","all other data checks could not be performed"
+"2","could not check analysisplan - not a data.frame","","","critical",""
+"3","could not check samplingframe","samplingframe","","critical","samplingframe not a data.frame"
+"4","could not check data against questionnaire","","ALL","critical","One or more of data, questions or choices was NULL"
+"5","could not check match between data and analysis plan - data is not a data.frame","data/analysisplan","","critical",""
