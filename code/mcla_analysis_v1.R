@@ -17,16 +17,16 @@ dataset <- read.csv("input/main_dataset_v2.csv", stringsAsFactors = F)
 
 # Prepare questionnaire object
 questionnaire <- load_questionnaire(dataset, kobo_questions, kobo_choices)
+
 sampling_frame_long <- gather(sampling_frame, key = "population_group",
                                               value = "population",
                                               NonDisplaced, IDPs, Returnees, Refugees, Migrants)
 
-sampling_frame_long1 <- select(sampling_frame_long, c("Gov", "District", "GovPcode", "District.Pcode", "TOTAL", "population_group", "population"))
-sampling_frame_long2 <- mutate(sampling_frame_long1, weight.id = paste0(District.Pcode, population_group))
+sampling_frame_long <- select(sampling_frame_long, 
+                              c("Gov", "District", "GovPcode", "District.Pcode", "TOTAL", "population_group", "population"))
 
-
-
-
+sampling_frame_long <- mutate(sampling_frame_long, 
+                            weight.id = paste0(District.Pcode, population_group))
 
 
 dataset$YE <- "YE"
