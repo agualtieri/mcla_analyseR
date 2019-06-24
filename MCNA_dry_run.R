@@ -39,7 +39,9 @@ samplingframe_tidy <- samplingframe %>% gather(key = "population_group",
                                                value = "population",
                                                nondisplaced,
                                                idps,
-                                               refugees) %>%
+                                               returnees,
+                                               refugees,
+                                               migrants) %>%
   # select interesting columns only 
   select(govpcode,
          district.pcode,
