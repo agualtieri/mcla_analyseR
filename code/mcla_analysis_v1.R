@@ -44,7 +44,7 @@ dataset1 <- dataset1 %>%
 
 dataset1 <- mutate(dataset1, weight.id = paste0(YE, A3_Metadata, data_stratum_id))
 
-weight.function <- map_to_weighting(sampling.frame = sampling_frame_long2, 
+weight.function <- map_to_weighting(sampling.frame = sampling_frame_long, 
                                     data.stratum.column = "weight.id",
                                     sampling.frame.population.column = "population",
                                     sampling.frame.stratum.column = "weight.id")
