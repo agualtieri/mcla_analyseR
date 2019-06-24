@@ -26,7 +26,8 @@ map_to_datatypes<-function(df,questionnaire){
 make_analysisplan_all_vars <- function(df,
                                        questionnaire,
                                        repeat.for.variable=NA,
-                                       independent.variable = NA){
+                                       independent.variable = NA,
+                                       hypothesis.type = "direct_reporting"){
   
   
   if(!is.data.frame(df)){stop(" df must be a data frame")}
@@ -49,7 +50,7 @@ make_analysisplan_all_vars <- function(df,
                            independent.variable.type=independent.variable.type,
                            dependent.variable=good_dependent_variables,
                            dependent.variable.type = types[good_dependent_variables],
-                           hypothesis.type = "direct_reporting",
+                           hypothesis.type = hypothesis.type,
                            stringsAsFactors = F)
   
 }
