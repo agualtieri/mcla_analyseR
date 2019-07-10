@@ -28,32 +28,32 @@ install.packages("utils")
 
 devtools::install_github(
   "mabafaba/koboquest",
-  build_opts = c()
-)
-
-devtools::install_github(
-  "mabafaba/kobostandards")
-  #build_opts = c()
-
+  force = T,
+  build_opts = c())
 
 
 devtools::install_github(
-  "mabafaba/xlsformfill")
- # build_opts = c())
+  "mabafaba/kobostandards",
+  force = T,
+  build_opts = c())
 
 
+devtools::install_github(
+  "mabafaba/xlsformfill",
+  force = T,
+ build_opts = c())
 
 
 devtools::install_github(
   "mabafaba/composr",
+  force = T,
   build_opts = c())
-
 
 
 devtools::install_github(
   "mabafaba/hypegrammaR",
-  build_opts = c(),
-  force = T)
+  force = T,
+  build_opts = c())
 
 
 
