@@ -9,7 +9,7 @@ library(composr) # horziontal operations
 library(tidyr)
 
 source("functions/to_alphanumeric_lowercase.R")
-source("functions/analysisplan_factory.R")
+source?TO
 
 # load questionnaire inputs
 questions <- read.csv("input/questionnaire_questions.csv", 
@@ -35,19 +35,8 @@ choices <- choices[, colnames(choices)!=""]
 samplingframe <- load_samplingframe("./input/sf.csv")
 
 # make samplingframe tidy (one row per stratum)
-samplingframe_tidy <- samplingframe %>% gather(key = "population_group",
-                                               value = "population",
-                                               nondisplaced,
-                                               idps,
-                                               returnees,
-                                               refugees,
-                                               migrants) %>%
-  # select interesting columns only 
-  select(govpcode,
-         district.pcode,
-         population_group,
-         population,
-         district)
+
+
 
 # problem (?): no sampling frame at subdistrict / location level ??? I thought we stratify on subdistrict!?
 # also sampling frame only for 3 population groups!
