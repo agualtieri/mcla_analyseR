@@ -1,2 +1,2 @@
 # mcla_analyseR
-Yemen MCLA 2019 - Analysis scrip
+Yemen MCLA 2019 - Analysis script
