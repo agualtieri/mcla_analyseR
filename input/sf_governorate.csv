@@ -1,0 +1,23 @@
+governorate_code,governorate_name,migrants,refugees,returnees,nondisplaced,idps
+YE11,Ibb,0,65,185,445,470
+YE12,Abyan,0,40,205,235,290
+YE13,Amanat Al Asimah,45,185,235,250,325
+YE14,Al Bayda,180,20,220,340,350
+YE15,Taizz,45,,350,475,545
+YE16,Al Jawf,0,0,285,255,300
+YE17,Hajjah,0,0,280,670,670
+YE18,Al Hudaydah,0,145,240,550,535
+YE19,Hadramaut,15,225,260,475,285
+YE20,Dhamar,15,15,200,285,325
+YE21,Shabwah,0,55,280,280,320
+YE22,Sa'ada,235,,325,285,325
+YE23,Sana'a,,15,170,315,385
+YE24,Aden,110,245,265,215,235
+YE25,Lahj,20,190,260,295,355
+YE26,Marib,160,75,230,260,455
+YE27,Al Mahwit,,,150,220,220
+YE28,Al Maharah,0,170,240,230,200
+YE29,Amran,,,250,380,500
+YE30,Al Dhale'e,0,60,220,225,220
+YE31,Raymah,,,,215,210
+YE32,Socotra,0,0,145,215,160

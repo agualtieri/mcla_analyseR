@@ -6,27 +6,33 @@ library("koboquest")
 library("xlsformfill")
 library("hypegrammaR")
 library("composr")
+library("tidyverse")
 
 browseVignettes("hypegrammaR")
+
+devtools::install_github("mabafaba/hypegrammaR", force = T, build_vignettes = T)
+
 
 # load questionnaire inputs
 questions <- read.csv("input/questionnaire_questions.csv", 
                       stringsAsFactors=F, check.names=F)
 
-# normalise (this should be done on the real questionnaire before collection!)
+# normalise
 questions$name<-tolower(questions$name)
 questions$relevant<-tolower(questions$relevant)
 questions$calculation<-tolower(questions$calculation)
-# double check for inconsistencies
-questionnaire_issues<-check_input(questions = questions, choices = choices)
-questionnaire_issues %>% write.csv("./output/issues_with_questionnaire.csv")
-browseURL("./output/issues_with_questionnaire.csv")
 
-# Choices sheet
 choices <- read.csv("input/questionnaire_choices.csv", 
                     stringsAsFactors=F, check.names=F)
+
 # remove empty columns
 choices <- choices[, colnames(choices)!=""]
+
+# double check for inconsistencies
+questionnaire_issues<-check_input(questions = questions, choices = choices)
+questionnaire_issues %>% write.csv("./output/issues_with_questionnaire.csv", row.names = F)
+browseURL("./output/issues_with_questionnaire.csv")
+
 
 
 ### Create fake dataset for testing
@@ -48,8 +54,6 @@ samplingframe_tidy <- samplingframe %>% gather(key = "population_group",
          population,
          district)
 
-# problem (?): no sampling frame at subdistrict / location level ??? I thought we stratify on subdistrict!?
-# also sampling frame only for 3 population groups!
 
 # remove non existent combinations
 samplingframe_tidy<- samplingframe_tidy %>% filter(!is.na(population))
@@ -67,7 +71,6 @@ choices <- plyr::rbind.fill(choices, sf_based_choices)
 choices <- choices[!duplicated(choices$name),]
 
 # generate data
-
 questions[questions$name %>% grepl("a3_me",.) %>% which,] %>% t
 choices[choices$list_name=="district","name"]
 response <- xlsform_fill(questions,choices,1000)
@@ -75,9 +78,6 @@ response <- xlsform_fill(questions,choices,1000)
 
 names(response)<- koboquest:::to_alphanumeric_lowercase(names(response))
 
-
-# add cluster ids
-# ...
 
 # horizontal operations / recoding
 # ... (none for now)
@@ -115,18 +115,17 @@ weight.function(response) %>% write.csv("weighted_dataset.csv") %>% browseURL("w
 
 
 
-"YE1101_migrants" %in% response$stratum_id
 
 response_tidy <- response[(response$stratum_id %in% samplingframe_tidy$stratum_id),]
 
-weight.function(response_tidy) %>% write.csv("weighted_dataset.csv")
+weight.function(response_tidy) %>% write.csv("weighted_dataset.csv", row.names = F)
 browseURL("weighted_dataset.csv")
 
 
 source("functions/analysisplan_factory.R")
 
 analysis_plan <- make_analysisplan_all_vars(response, questionnaire, 
-                                           # repeat.for.variable = "a3_metadata",
+                                            repeat.for.variable = "a2_metadata",
                                             independent.variable = "a1_metadata")
 
 
@@ -150,6 +149,9 @@ hypegrammaR:::map_to_generic_hierarchical_html(resultlist = response_analysis_ou
                                                filename = "test_output.html")
 
 
+map_to_master_table(response_analysis_output, "test.csv")
+browseURL("test.csv")
+
 
 
 args<-list(1,2,NA,na.rm=T)
@@ -161,6 +163,9 @@ response_analysis_output$results %>%
   do.call(rbind, .) %>% write.csv("all_results_labeled.csv")
 
 browseURL("./all_results_labeled.csv")
+
+
+analplan <- load_analysisplan(df = hypegrammaR::test_analysisplan)
 
 
 

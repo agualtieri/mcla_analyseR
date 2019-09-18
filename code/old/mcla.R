@@ -1,3 +1,13 @@
+# Load first
+library(dplyr)
+library(koboquest) # manage kobo questionnairs
+library(kobostandards) # check inputs for inconsistencies
+library(xlsformfill) # generate fake data for kobo
+library(hypegrammaR) # simple stats 4 complex samples
+library(composr) # horziontal operations
+library(tidyr)
+
+
 # Loading kobo files, dataframe, and sampling frame
 choices <- read.csv("input/questionnaire_choices.csv", stringsAsFactors = F)
 questions <- read.csv("input/questionnaire_questions.csv", stringsAsFactors = F )
@@ -5,7 +15,7 @@ sampling_frame <- read.csv("input/sf.csv", stringsAsFactors = F)
 dataset <- read.csv("input/main_dataset_v2.csv", stringsAsFactors = F)
 
 # Prepare questionnaire object
-questionnaire <- load_questionnaire(dataset, kobo_questions, kobo_choices)
+questionnaire <- load_questionnaire(dataset, questions, choices)
 
 sampling_frame_long <- gather(sampling_frame, key = "population_group",
                               value = "population",

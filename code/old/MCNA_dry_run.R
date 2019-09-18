@@ -60,8 +60,6 @@ choices <- choices[!duplicated(choices$name),]
 response <- xlsform_fill(questions,choices,1000)
 names(response)<- koboquest:::to_alphanumeric_lowercase(names(response))
 
-# add cluster ids
-# ...
 
 # horizontal operations / recoding
 # ... (none for now)
