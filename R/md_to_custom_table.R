@@ -3,7 +3,7 @@ my_custom_md_table<- function (result)
   md_out <- ""
   if (!is.null(result$summary.statistic)) {
     if (!is.null(result$parameters$independent.var)) {
-      hypegrammaR:::md_add_lines(md_out) <- (paste("by",  labelled::var_label(result$parameters$independent.var)))
+      hypegrammaR:::md_add_lines(md_out) <- (paste("by", result$results$summary.statistic$repeat.var.value))
     }
     table <- result %>% (hypegrammaR:::map_to_table)
     hypegrammaR:::md_add_lines(md_out) <- knitr::kable(table, format = "html") %>% 

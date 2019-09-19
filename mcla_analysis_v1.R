@@ -83,7 +83,7 @@ samplingframe_tidy<- filter(samplingframe_tidy, population >0)
 #choices[choices$list_name=="district","name"]
 
 
-response <- xlsform_fill(questions,choices, 5000)
+response <- xlsform_fill(questions,choices, 50)
 
 
 names(response)<- koboquest:::to_alphanumeric_lowercase(names(response))
@@ -158,6 +158,7 @@ response_analysis_output <- from_analysisplan_map_to_output(data = response,
 # response_analysis_output[["analysisplan"]][["sub.research.question"]]
 
 
+
 twowaytables <- response_analysis_output$results %>% lapply(map_to_table)
 
 filenames <- paste0("MCLA_analysis_output_", response_analysis_output[["analysisplan"]][["sub.research.question"]], ".xlsx") 
@@ -171,7 +172,7 @@ response_tables <- purrr::map2(twowaytables, filenames, xlsx::write.xlsx)
 ### Easier to read .html file for analysis presentation
 response_analysis_output$analysisplan
 hypegrammaR:::map_to_generic_hierarchical_html(resultlist = response_analysis_output,
-                                               render_result_with = hypegrammaR:::from_result_map_to_md_table, 
+                                               render_result_with = my_custom_md_table, 
                                                by_analysisplan_columns = c("research.question","sub.research.question"),
                                                by_prefix = c("RQ:", "Indicator: "),
                                                level = 2,
@@ -179,8 +180,8 @@ hypegrammaR:::map_to_generic_hierarchical_html(resultlist = response_analysis_ou
                                                dir = "./output",
                                                filename = "test_output.html")
 
-
-
+# hypegrammaR:::from_result_map_to_md_table, 
+my_custom_md_table
 
 ### Map to master table for pivoting and other cross indicator analysis
 response_analysis_output$results[[1]]$summary.statistic
