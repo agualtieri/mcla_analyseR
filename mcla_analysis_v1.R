@@ -7,13 +7,13 @@ rm(list = ls())
 # devtools::install_github("mabafaba/composr", force = T, build_vignettes = T)
 
 #Load packages
-library("koboquest")
 library("xlsformfill")
 library("hypegrammaR")
 library("composr")
 library("tidyverse")
+library("kableExtra")
 
-# browseVignettes("hypegrammaR")
+#browseVignettes("hypegrammaR")
 
 
 
@@ -27,7 +27,7 @@ questions$relevant<-tolower(questions$relevant)
 questions$calculation<-tolower(questions$calculation)
 questions$type<-tolower(questions$type)
 
-choices <- read.csv("input/choices.csv", 
+choices <- read.csv("input/choices_named.csv", 
                     stringsAsFactors=F, check.names=F)
 
 # remove empty columns
@@ -37,6 +37,10 @@ choices <- choices[, colnames(choices)!=""]
 #questionnaire_issues<-check_input(questions = questions, choices = choices)
 #questionnaire_issues %>% write.csv("./output/issues_with_questionnaire.csv", row.names = F)
 #browseURL("./output/issues_with_questionnaire.csv")
+
+
+## Add "YE" to locations
+# response$a2_metadata <- paste0("YE", response$a2_metadata)
 
 
 
@@ -79,7 +83,7 @@ samplingframe_tidy<- filter(samplingframe_tidy, population >0)
 #choices[choices$list_name=="district","name"]
 
 
-response <- xlsform_fill(questions,choices, 10000)
+response <- xlsform_fill(questions,choices, 5000)
 
 
 names(response)<- koboquest:::to_alphanumeric_lowercase(names(response))
@@ -91,7 +95,7 @@ names(response)<- koboquest:::to_alphanumeric_lowercase(names(response))
 # vertical operations / aggregation
 
 ### Load the questionnare
-questionnaire <- load_questionnaire(response,questions,choices)
+questionnaire <- load_questionnaire(response,questions,choices,choices.label.column.to.use = "label::English")
 
 
 ### create stratm_id into the response dataset
@@ -123,8 +127,8 @@ weight.function <- map_to_weighting(sampling.frame = samplingframe_tidy,
 ### Delete non-matching obs (it shouldn't happen with a real dataset)
 response <- response[(response$stratum_id %in% samplingframe_tidy$stratum_id),]
 
-weight.function(response_tidy) %>% write.csv("weighted_dataset.csv", row.names = F) 
-browseURL("weighted_dataset.csv")
+weight.function(response) %>% write.csv("./output/weighted_dataset.csv", row.names = F) 
+browseURL("./output/weighted_dataset.csv")
 
 ### Delete unnecesary columns
 response <- response %>% select(-c("start", "end", "deviceid", "formname"))
@@ -138,22 +142,28 @@ response <- response %>% select(-c("start", "end", "deviceid", "formname"))
 
 #write.csv(analysis_plan, "./output/test_analysisplan.csv")
 
-analysis_plan <- read.csv("./input/test_analysis_plan.csv", 
+analysis_plan <- read.csv("./input/test_analysis_plan_v2.csv", 
                           stringsAsFactors=F, check.names=F)
 
 
 response_analysis_output <- from_analysisplan_map_to_output(data = response,
                                                             weighting = weight.function,
                                                             analysisplan = analysis_plan,
-                                                            #questionnaire = questionnaire,
+                                                            questionnaire = hypegrammaR::load_questionnaire(response, questions, choices, choices.label.column.to.use = "label::English"),
                                                             labeled = T,
                                                             verbose = T)
 
 
 ### Create bulk two-way tables from analysis output
+# response_analysis_output[["analysisplan"]][["sub.research.question"]]
+
+
 twowaytables <- response_analysis_output$results %>% lapply(map_to_table)
-filenames <- paste0("MCLA_analysis_output_", 1:length(twowaytables), ".xlsx")
-purrr::map2(twowaytables, filenames, xlsx::write.xlsx)
+
+filenames <- paste0("MCLA_analysis_output_", response_analysis_output[["analysisplan"]][["sub.research.question"]], ".xlsx") 
+
+response_tables <- purrr::map2(twowaytables, filenames, xlsx::write.xlsx)
+
 
 
 
@@ -161,37 +171,26 @@ purrr::map2(twowaytables, filenames, xlsx::write.xlsx)
 ### Easier to read .html file for analysis presentation
 response_analysis_output$analysisplan
 hypegrammaR:::map_to_generic_hierarchical_html(resultlist = response_analysis_output,
-                                               render_result_with = hypegrammaR:::from_result_map_to_md_table,
-                                               by_analysisplan_columns = c("research.question","dependent.var"),
-                                               by_prefix = c("RQ:", "indicator: "),
+                                               render_result_with = hypegrammaR:::from_result_map_to_md_table, 
+                                               by_analysisplan_columns = c("research.question","sub.research.question"),
+                                               by_prefix = c("RQ:", "Indicator: "),
                                                level = 2,
-                                               #questionnaire = questionnaire,
-                                               dir = ".",
+                                               questionnaire = load_questionnaire(response, questions, choices, choices.label.column.to.use = "label::English"),
+                                               dir = "./output",
                                                filename = "test_output.html")
 
 
-### Map to master table (not working)
-map_to_master_table(response_analysis_output, "test.csv")
-browseURL("test.csv")
 
 
+### Map to master table for pivoting and other cross indicator analysis
+response_analysis_output$results[[1]]$summary.statistic
 
-#args<-list(1,2,NA,na.rm=T)
+response_analysis_output$results %>% lapply(map_to_labeled,questionnaire) %>% 
+                                 lapply(function(x){x$summary.statistic}) %>% do.call(rbind, .) %>%
+                                                                          write.csv("./output/all_results_labeled.csv", row.names = F)
 
-#response_analysis_output$results[[1]]$summary.statistic
+browseURL("./output/all_results_labeled.csv")
 
-#response_analysis_output$results %>% 
- # lapply(map_to_labeled,questionnaire) %>% lapply(function(x){x$summary.statistic}) %>% 
- # do.call(rbind, .) %>% write.csv("all_results_labeled.csv")
-
-#browseURL("./all_results_labeled.csv")
-
-
-analplan <- load_analysisplan(df = hypegrammaR::test_analysisplan)
-
-
-
-rbind(list_of_sumstats[[1]],list_of_sumstats[[2]], ....)
 
 
 
