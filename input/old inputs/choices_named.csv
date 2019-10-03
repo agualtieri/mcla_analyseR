@@ -1,0 +1,1134 @@
+list_name,name,label::English,label::Alberto
+yesno,yes,1,yes
+yesno,no,2,no
+gender,yes,1,male
+gender,no,2,female
+a1_list,a1_1,1,nondisplaced
+a1_list,a1_2,2,idps
+a1_list,a1_3,3,returnees
+a1_list,a1_4,4,refugees
+a1_list,a1_5,5,migrants
+a7_list,a7_1,1,from
+a7_list,a7_2,2,to
+b2_list,b2_1_a1_1,1,yemeni_nondisplaced
+b2_list,b2_2_a1_1,2,djibutian_nondisplaced
+b2_list,b2_3_a1_1,3,somali_nondisplaced
+b2_list,b2_4_a1_1,4,ethiopian_nondisplaced
+b2_list,b2_5_a1_1,5,eritrean_nondisplaced
+b2_list,b2_6_a1_1,6,other_nondisplaced
+b2_list,b2_1_a1_2,1,yemeni_idps
+b2_list,b2_2_a1_2,2,djibutian_idps
+b2_list,b2_3_a1_2,3,somali_idps
+b2_list,b2_4_a1_2,4,ethiopian_idps
+b2_list,b2_5_a1_2,5,eritrean_idps
+b2_list,b2_6_a1_2,6,other_idps
+b2_list,b2_1_a1_3,1,yemeni_returnees
+b2_list,b2_2_a1_3,2,djibutian_returnees
+b2_list,b2_3_a1_3,3,somali_returnees
+b2_list,b2_4_a1_3,4,ethiopian_returnees
+b2_list,b2_5_a1_3,5,eritrean_returnees
+b2_list,b2_6_a1_3,6,other_returnees
+b2_list,b2_2_a1_4,2,djibutian_refugees
+b2_list,b2_3_a1_4,3,somali_refugees
+b2_list,b2_4_a1_4,4,ethiopian_refugees
+b2_list,b2_5_a1_4,5,eritrean_refugees
+b2_list,b2_6_a1_4,6,other_refugees
+b2_list,b2_2_a1_5,2,djibutian_nondisplaced
+b2_list,b2_3_a1_5,3,somali_idps
+b2_list,b2_4_a1_5,4,ethiopian_returnees
+b2_list,b2_5_a1_5,5,eritrean_refugees
+b2_list,b2_6_a1_5,6,other_migrants
+b4_list,b4_1,1,married
+b4_list,b4_2,2,unmarried
+b4_list,b4_3,3,divorced
+b4_list,b4_4,4,widowed
+b4_list,b4_5,5,i don’t want to answer
+b713_list,b713_1,1,head 
+b713_list,b713_2,2,wife/husband
+b713_list,b713_3,3,son/daughter  
+b713_list,b713_4,4,son/daughter-in law 
+b713_list,b713_5,5,grandchild 
+b713_list,b713_6,6,father/mother  
+b713_list,b713_7,7,brother /sister
+b713_list,b713_8,8,nephew/ niece  
+b713_list,b713_9,9,brother/sister-in law
+b713_list,b713_10,10,parent in law 
+b713_list,b713_11,11,other (specify)
+b717_list,b717_1,1,resident
+b717_list,b717_2,2,idp
+b719_list,b719_1,1,birth certificate 
+b719_list,b719_2,2,personal id card
+b719_list,b719_3,3,passport
+b719_list,b719_4,4,does not have any documents
+b719_list,b719_5,5,i don’t know
+b7110_list,b7110_1,1,married
+b7110_list,b7110_2,2,un married  
+b7110_list,b7110_3,3,widow
+b7110_list,b7110_4,4,divorced
+b7112_list,b7112_1,1,currently enrolled
+b7112_list,b7112_2,2,had previously enrolled
+b7112_list,b7112_3,3,never enrolled
+b7113_list,b7113_1,1,school doesn’t exist
+b7113_list,b7113_2,2,financial issues
+b7113_list,b7113_3,3,young age
+b7113_list,b7113_4,4,person with special needs
+b7113_list,b7113_5,5,family’s unwillingness of education
+b7113_list,b7113_6,6,lack of male and female teachers
+b7113_list,b7113_7,7,difficulty of school access
+b7113_list,b7113_8,8,individual’s unwillingness to learn
+b7113_list,b7113_9,9,war conditions 
+b7113_list,b7113_10,10,she/he work to support the hh
+b7113_list,b7113_11,11,"other, specify"
+b7114_list,b7114_1,1,illiterate
+b7114_list,b7114_2,2,reads and writes
+b7114_list,b7114_3,3,pre-school
+b7114_list,b7114_4,4,primary education
+b7114_list,b7114_5,5,secondary education
+b7114_list,b7114_6,6,diploma after middle school
+b7114_list,b7114_7,7,diploma after secondary education
+b7114_list,b7114_8,8,bachelor’s degree
+b7114_list,b7114_9,9,masters
+b7114_list,b7114_10,10,phd
+b7114_list,b7114_11,11,"informal education: literacy, adult education, etc"
+b7115_list,b7115_1,1,"yes, regularly"
+b7115_list,b7115_2,2,"yes, occasionally "
+b7115_list,b7115_3,3,no
+b7116_list,b7116_1,1,agriculture
+b7116_list,b7116_2,2,fishing
+b7116_list,b7116_3,3,industry
+b7116_list,b7116_4,4,construction
+b7116_list,b7116_5,5,trade
+b7116_list,b7116_6,6,hotels and restaurants
+b7116_list,b7116_7,7,transport and storage 
+b7116_list,b7116_8,8,telecommunication
+b7116_list,b7116_9,9,banks and banking services 
+b7116_list,b7116_10,10,security
+b7116_list,b7116_11,11,education
+b7116_list,b7116_12,12,health
+b7116_list,b7116_13,13,"other, please specify "
+b72_list,b72_1,1,no difficulty
+b72_list,b72_2,2,some difficulty
+b72_list,b72_3,3,a lot of difficulty
+b72_list,b72_4,4,cannot do at all
+c1_list,c1_1,1,once
+c1_list,c1_2,2,twice
+c1_list,c1_3,3,three times
+c1_list,c1_4,4,more than three times
+c1_list,c1_5,5,i do not want to answer
+c1_list,c1_6,6,i do not know
+c3_list,c3_1,1,al ara                               
+c3_list,c3_2,2,al khabia
+c3_list,c3_3,3,bier ali                             
+c3_list,c3_4,4,ain bamabad
+c3_list,c3_5,5,manfath al wadee3a
+c3_list,c3_6,6,tajammou3 sharj al fellaheen
+c3_list,c3_7,7,"other, specify "
+c4_list,c4_1,1,once
+c4_list,c4_2,2,twice
+c4_list,c4_3,3,three times
+c4_list,c4_4,4,more than three times
+c4_list,c4_5,5,i do not want to answer
+c4_list,c4_6,6,i do not know
+c6_list,c6_1,1,"direct threat of violence/harm to household members, but no physical attack"
+c6_list,c6_2,2,direct violations against hh members due to armed conflict
+c6_list,c6_3,3,direct threat of abuse committed against self or family
+c6_list,c6_4,4,house/property damaged or destroyed due to violence and armed conflict
+c6_list,c6_5,5,evacuated/displaced/relocated by authorities for protection             
+c6_list,c6_6,6,evicted from property          
+c6_list,c6_7,7,lack of access to basic services (education or health care)
+c6_list,c6_8,8,"lack of access to basic commodities (food, water, fuel)   "
+c6_list,c6_9,9,lack of employment/livelihood options                      
+c6_list,c6_10,10,natural disaster (e.g. flooding)
+c6_list,c6_11,11,i don’t know
+c6_list,c6_12,12,i don’t want to answer
+c7_list,c7_1,1,arrest
+c7_list,c7_2,2,detention
+c7_list,c7_3,3,harassment
+c7_list,c7_4,4,confiscation of id
+c7_list,c7_5,5,confiscation of assets
+c7_list,c7_6,6,asked for bribery to avoid arrest/detention
+c7_list,c7_7,7,movement restriction
+c7_list,c7_8,8,deportation
+c7_list,c7_9,9,none
+c7_list,c7_10,10,i don’t know
+c7_list,c7_11,11,i don’t want to answer
+c8_list,c8_1_a1_1,1,assistance_nondisplaced
+c8_list,c8_2_a1_1,2,accomodation_nondisplaced
+c8_list,c8_3_a1_1,3,basic_services_nondisplaced
+c8_list,c8_4_a1_1,4,livelihoods_nondisplaced
+c8_list,c8_5_a1_1,5,secuirty_nondisplaced
+c8_list,c8_6_a1_1,6,family_nondisplaced
+c8_list,c8_8_a1_2,8,dnk_nondisplaced
+c8_list,c8_9_a1_2,9,refuse_nondisplaced
+c8_list,c8_1_a1_2,1,assistance_idps
+c8_list,c8_2_a1_2,2,accomodation_idps
+c8_list,c8_3_a1_2,3,basic_services_idps
+c8_list,c8_4_a1_2,4,livelihoods_idps
+c8_list,c8_5_a1_2,5,secuirty_idps
+c8_list,c8_6_a1_2,6,family_idps
+c8_list,c8_7_a1_2,7,transit_idps
+c8_list,c8_8_a1_2,8,dnk_idps
+c8_list,c8_9_a1_2,9,refuse_idps
+c8_list,c8_1_a1_3,1,assistance_returnees
+c8_list,c8_2_a1_3,2,accomodation_returnees
+c8_list,c8_3_a1_3,3,basic_services_returnees
+c8_list,c8_4_a1_3,4,livelihoods_returnees
+c8_list,c8_5_a1_3,5,secuirty_returnees
+c8_list,c8_6_a1_3,6,family_returnees
+c8_list,c8_8_a1_3,8,dnk_returnees
+c8_list,c8_9_a1_3,9,refuse_returnees
+c8_list,c8_1_a1_4,1,assistance_refugees
+c8_list,c8_2_a1_4,2,accomodation_refugees
+c8_list,c8_3_a1_4,3,basic_services_refugees
+c8_list,c8_4_a1_4,4,livelihoods_refugees
+c8_list,c8_5_a1_4,5,secuirty_refugees
+c8_list,c8_6_a1_4,6,family_refugees
+c8_list,c8_7_a1_4,7,transit_refugees
+c8_list,c8_8_a1_4,8,dnk_refugees
+c8_list,c8_9_a1_4,9,refuse_refugees
+c8_list,c8_1_a1_5,1,assistance_nondisplaced
+c8_list,c8_2_a1_5,2,accomodation_nondisplaced
+c8_list,c8_3_a1_5,3,basic_services_nondisplaced
+c8_list,c8_4_a1_5,4,livelihoods_nondisplaced
+c8_list,c8_5_a1_5,5,secuirty_nondisplaced
+c8_list,c8_6_a1_5,6,family_nondisplaced
+c8_list,c8_8_a1_5,7,transit_nondisplaced
+c8_list,c8_9_a1_5,8,dnk_nondisplaced
+c8_list,c8_9_a1_5,9,refuse_nondisplaced
+c9_10_list,c9_10_1,1,"remain here, voluntarily"
+c9_10_list,c9_10_2,2,"remain here, involuntarily (there is no alternative)"
+c9_10_list,c9_10_3,3,move to another location within yemen
+c9_10_list,c9_10_4,4,return to your place of origin
+c9_10_list,c9_10_5,5,move to another country (for migrants and refugees)
+c9_10_list,c9_10_6,6,depends on situation
+c9_10_list,c9_10_7,7,i don’t know
+c9_10_list,c9_10_8,8,i don’t want to answer
+d1_list,d1_1,1,food
+d1_list,d1_2,2,drinking water
+d1_list,d1_3,3,sanitation (e.g. latrines)
+d1_list,d1_4,4,hygiene items (e.g. soap)
+d1_list,d1_5,5,healthcare/medication
+d1_list,d1_6,6,livelihoods / job opportunities
+d1_list,d1_7,7,cash assistance
+d1_list,d1_8,8,winterization cash grant
+d1_list,d1_9,9,education for children
+d1_list,d1_10,10,education for adults
+d1_list,d1_11,11,shelter/housing / cash grants to rehabilitate damaged houses / maintenance support
+d1_list,d1_12,12,"household nfis (mattresses, blankets, mosquito nets, etc)"
+d1_list,d1_13,13,cooking stove and fuel
+d1_list,d1_14,14,emergency shelter kit
+d1_list,d1_15,15,"protection support services (legal assistance, psychological support, protection of children, protection against violence)"
+d1_list,d1_16,16,documentation
+d1_list,d1_17,17,safe and dignified return to country of origin (only for refugee and migrants)
+d1_list,d1_18,18,i don’t know
+d1_list,d1_19,19,i don’t want to answer
+d2_list,d2_1,1,"any member of the hh own electronic gadget (radio, phone, tv)"
+d2_list,d2_2,2,"any member of the hh has a functional means of transport (motorcycle, car, bicycle)"
+d2_list,d2_3,3,at least one member of the hh has vocational / apprenticeship / professional skills
+d2_list,d2_4,4,"at least one member of the hh has formal employment, is self-employed or has a business"
+d2_list,d2_5,5,at least one member of the hh has access to savings
+d2_list,d2_6,6,hh has access to land for agriculture
+d2_list,d2_7,7,none of the above statements apply to the household
+e12_list,e12_1,1,no shelter (not residing inside a site and/or housing structure)
+e12_list,e12_2,2,"makeshift shelter – typically built from waste and temporary materials (tarpaulins, cardboard, blankets, metal sheeting, tarps, etc.);"
+e12_list,e12_3,3,emergency shelter – a portable shelter with a cover and a structure;
+e12_list,e12_4,4,house or apartment
+e12_list,e12_5,5,"public building (school, station, religious buildings, etc.)"
+e12_list,e12_6,6,hotel
+e12_list,e12_7,7,transitional shelter
+e13_list,e13_1,1,"finished building – a building which is completed (with walls and roof) and composite of all building components (windows, doors, plumbing, etc.)"
+e13_list,e13_2,2,"unfinished building – a building which has more than its frame, but is still missing elements (i.e. doors, windows, lighting, plumbing, walls, etc.);"
+e13_list,e13_3,3,"skeleton – a building which has a solid frame (concrete, steel, etc.) but no other elements;"
+e14_list,e14_1,1,fully destroyed (housing unit is totally in rubble or where at least 50% of the structure of the shelter has incurred severe damage and cannot be repaired)
+e14_list,e14_2,2,partial damage (housing unit where the skeleton incurred damages but part of the shelter is still livable and can be repaired)
+e14_list,e14_3,3,minor damage (housing unit incurred small damages while the house is still adequate for living i.e. bullet hole in the wall or broken window)
+e14_list,e14_4,4,no damage to the shelter
+e2_list,e2_1,1,"yes, we live in rental accommodation and capable of making the payment"
+e2_list,e2_2,2,"yes, but barely"
+e2_list,e2_3,3,"no, because we are not able to make the rental payment"
+e2_list,e2_4,4,"no, we own the shelter"
+e2_list,e2_5,5,"no, but we work in exchange for shelter"
+e2_list,e2_6,6,i don’t know
+e2_list,e2_7,7,i don’t want to answer
+e3_list,e3_1,1,yes
+e3_list,e3_2,2,no
+e3_list,e3_3,3,i don’t know
+e3_list,e3_4,4,i don’t want to answer
+e4_list,e4_1,1,"access to functional kitchen (all basic equipment required for cooking is available such as kitchen set, cooking stove and fuel)"
+e4_list,e4_2,2,"access to functional toilet (availability of functional toilet, with doors, locks, water, disposal facilities and hygiene items)"
+e4_list,e4_3,3,access to adequate water (access to clean and fresh water for drinking or bathing provided in a suitable manner and in sufficient volume)
+e4_list,e4_4,4,appropriate lighting
+e4_list,e4_5,5,adequate floor space
+e4_list,e4_6,6,adequate number or rooms
+e4_list,e4_7,7,adequate protection against climatic factors
+e4_list,e4_8,8,none
+e5_list,e5_1,1,"external/infrastructure damage (walls, windows, ceiling, etc.)"
+e5_list,e5_2,2,"internal damage (lighting, furniture, etc.)"
+e5_list,e5_3,3,"no, there is no damage to our shelter/household"
+e6_list,e6_1,1,"yes, our household has access to available and affordable materials and maintenance items in the market to repair the damage"
+e6_list,e6_2,2,"no, our household has access to available materials in the market but cannot afford them in order to repair the damage"
+e6_list,e6_3,3,"no, our household has no access to materials to repair the damage because they are not available in the market"
+e6_list,e6_4,4,"no, our household has access to available and affordable materials in the market but no capacity to repair the damage"
+e6_list,e6_5,5,"no, our household has neither access to available nor affordable materials to repair the damage"
+e6_list,e6_6,6,i do not know
+e7_list,e7_1_a1_2,1,damange_idp
+e7_list,e7_2_a1_2,2,looting_idp
+e7_list,e7_3_a1_2,3,occupied_idp
+e7_list,e7_4_a1_2,4,dispute_idp
+e7_list,e7_5_a1_2,5,rental_idp
+e7_list,e7_6_a1_2,6,documents_idp
+e7_list,e7_7_a1_2,7,noaccess_idp
+e7_list,e7_8_a1_2,8,eviction_idp
+e7_list,e7_9_a1_2,9,dnk_idp
+e7_list,e7_10_a1_2,10,refuse_idp
+e7_list,e7_11_a1_2,11,none_idp
+e8_list,e8_1,1,"yes, they are both available and affordable"
+e8_list,e8_2,2,"yes, they are available but not affordable"
+e8_list,e8_3,3,"yes, they are affordable but not always available"
+e8_list,e8_4,4,"no, they are not affordable not available in the local market"
+e9_list,e9_1_a1_2,1,yes_directly_idps
+e9_list,e9_2_a1_2,2,yes_representation_idps
+e9_list,e9_3_a1_2,3,no_idps
+e10_list,e10_1_a1_2,1,local_integration_idps
+e10_list,e10_2_a1_2,2,resettlement_idps
+e10_list,e10_3_a1_2,3,assisted_return_idps
+e10_list,e10_4_a1_2,4,voluntary_idps
+e10_list,e10_5_a1_2,5,voluntary_humanitarian_idps
+e10_list,e10_6_a1_2,6,none_idps
+e10_list,e10_7_a1_2,7,dnk_idps
+e10_list,e10_8_a1_2,8,refuse_idps
+e10_list,e10_1_a1_4,1,local_integration_refugees
+e10_list,e10_2_a1_4,2,resettlement_refugees
+e10_list,e10_3_a1_4,3,assisted_return_refugees
+e10_list,e10_4_a1_4,4,voluntary_refugees
+e10_list,e10_5_a1_4,5,voluntary_humanitarian_refugees
+e10_list,e10_6_a1_4,6,none_refugees
+e10_list,e10_7_a1_4,7,dnk_refugees
+e10_list,e10_8_a1_4,8,refuse_refugees
+e10_list,e10_1_a1_5,1,local_integration_migrants
+e10_list,e10_2_a1_5,2,resettlement_migrants
+e10_list,e10_3_a1_5,3,assisted_return_migrants
+e10_list,e10_4_a1_5,4,voluntary_migrants
+e10_list,e10_5_a1_5,5,voluntary_humanitarian_migrants
+e10_list,e10_6_a1_5,6,none_migrants
+e10_list,e10_7_a1_5,7,dnk_migrants
+e10_list,e10_8_a1_5,8,refuse_migrants
+f11_list,f11_1,1,borehole
+f11_list,f11_2,2,protected well
+f11_list,f11_3,3,unprotected well
+f11_list,f11_4,4,protected rainwater tank
+f11_list,f11_5,5,unprotected rainwater tank
+f11_list,f11_6,6,bottled water
+f11_list,f11_7,7,protected spring
+f11_list,f11_8,8,unprotected spring
+f11_list,f11_9,9,"surface water (river, dam, lake, pond, stream, or canal)"
+f11_list,f11_10,10,water trucks
+f11_list,f11_11,11,other: please specify (……………………………...)
+f12_list,f12_1,1,piped water into the house
+f12_list,f12_2,2,piped water connected to public tap
+f12_list,f12_3,3,illegal connection to piped network
+f12_list,f12_4,4,water trucks
+f12_list,f12_5,5,hh members carry water into the house
+f12_list,f12_6,6,hh members use animals such as donkeys to bring water into the house
+f12_list,f12_7,7,other: please specify (……………………………
+f13_list,f13_1,1,water source is located at the property
+f13_list,f13_2,2,less than 30 minutes
+f13_list,f13_3,3,between 30 min and 1 hour
+f13_list,f13_4,4,between 1 and 2 hours
+f13_list,f13_5,5,more than 2 hours
+f13_list,f13_6,6,i do not know
+f14_list,f14_1,1,"yes, boil the water"
+f14_list,f14_2,2,"yes, use chlorine tablets, powder or liquid"
+f14_list,f14_3,3,"yes, use a filter"
+f14_list,f14_4,4,"no, there is no need as the water is clean"
+f14_list,f14_5,5,"no, we don’t have materials for water purification/treatment"
+f14_list,f14_6,6,"no, we don’t know any treatment methods"
+f17_list,f15_1,1,plastic tank
+f17_list,f15_2,2,metal tank
+f17_list,f15_3,3,underground tank
+f17_list,f15_4,4,jerry cans
+f17_list,f15_5,5,buckets
+f17_list,f15_6,6,no containers
+f17_list,f15_7,7,"others, specify"
+f19_list,f19_1,1,containers are clean and sealed/ covered
+f19_list,f19_2,2,containers are clean but not sealed/ covered
+f19_list,f19_3,3,containers are dirty but sealed/ covered
+f19_list,f19_4,4,"containers are dirty, but not sealed/ covered"
+f19_list,f19_5,5,no containers present
+f110_list,f110_1,1,water is not clean
+f110_list,f110_2,2,distance too far
+f110_list,f110_3,3,water is not enough
+f110_list,f110_4,4,prices are too high
+f110_list,f110_5,5,no problems
+f110_list,f110_6,6,"other, specify"
+f22_list,f22_1,1,soap only
+f22_list,f22_2,2,water only
+f22_list,f22_3,3,both soap and water
+f22_list,f22_4,4,no water and soap
+f23_list,f23_1,1,bar of soap
+f23_list,f23_2,2,plastic jerry can/bucket
+f23_list,f23_3,3,sanitary pads
+f23_list,f23_4,4,baby diapers
+f23_list,f23_5,5,washing powder
+f23_list,f23_6,6,toothpaste
+f23_list,f23_7,7,toothbrush/miswak
+f23_list,f23_8,8,shampoo
+f23_list,f23_9,9,water treatment/purification tablets
+f23_list,f23_10,10,none
+f24_list,f24_1,1,when hands are dirty
+f24_list,f24_2,2,when performing ablution
+f24_list,f24_3,3,before eating
+f24_list,f24_4,4,after eating
+f24_list,f24_5,5,after disposing of baby’s diapers
+f24_list,f24_6,6,before feeding a baby
+f24_list,f24_7,7,after defecating
+f24_list,f24_8,8,before preparing food
+f24_list,f24_9,9,we never wash our hands
+f25_list,f25_1,1,garbage is left on the street by household and collected through public system
+f25_list,f25_2,2,garbage is left in containers on the street by household and collected through public system
+f25_list,f25_3,3,garbage is left in piles in public areas and is not collected
+f25_list,f25_4,4,garbage is buried or burned
+f26_list,f26_1,1,once a week
+f26_list,f26_2,2,more than once a week
+f26_list,f26_3,3,once every 2 weeks
+f26_list,f26_4,4,once every month
+f26_list,f26_5,5,never collected
+f311_list,f311_1,1,flush latrine to the open
+f311_list,f311_2,2,flush latrine to a tank/sewer system/pit
+f311_list,f311_3,3,dry latrine
+f311_list,f311_4,4,pit latrine-covered/with slab
+f311_list,f311_5,5,pit latrine-open/without slab
+f311_list,f311_6,6,in the open
+f312_list,f312_1,1,not functional and dirty
+f312_list,f312_2,2,functional but dirty
+f312_list,f312_3,3,clean and functional
+f32_list,f32_1,1,"yes, all members had access"
+f32_list,f32_2,2,some members had access
+f32_list,f32_3,3,no
+f33_list,f33_1,1,there is not enough facilities/too crowded
+f33_list,f33_2,2,absence/insufficiency of water
+f33_list,f33_3,3,latrines are unclean/unhygienic
+f33_list,f33_4,4,lack of privacy/no separation between men and women
+f33_list,f33_5,5,"it is not safe (no door, no lock, etc)"
+f33_list,f33_6,6,cess pit is full
+f33_list,f33_7,7,pipes are blocked
+f33_list,f33_8,8,connection to sewage blocked
+f33_list,f33_9,9,structure is damaged
+f33_list,f33_10,10,others (specify): ……...
+f34_list,f34_1,1,"yes, once or twice"
+f34_list,f34_2,2,"yes, three – five times"
+f34_list,f34_3,3,"yes, there is always visible wastewater in the vicinity of the household"
+f34_list,f34_4,4,no
+f35_list,f35_1,1,flooding occurs very frequently (at least once a year) and damage is always observed
+f35_list,f35_2,2,flooding occurs frequently (3-5 times in the last 5 years) and significant damage is observed
+f35_list,f35_3,3,flooding occurs frequently (3-5 times in the last 5 years) and some damage is observed
+f35_list,f35_4,4,flooding occurs sometimes (1-2 times in the last 5 years) and damage is always observed
+f35_list,f35_5,5,flooding occurs sometimes (1-2 times in the last 5 years) and no damage is observed
+f35_list,f35_6,6,almost never
+f35_list,f35_7,7,never
+g1_list,g1_1,1,yes
+g1_list,g1_2,2,no
+g1_list,g1_3,3,i don’t know
+g1_list,g1_4,4,i don’t want to answer
+g21_list,g21_1,1,educational staff salaries are not paid
+g21_list,g21_2,2,schools are closed
+g21_list,g21_3,3,books are not available
+g21_list,g21_4,4,teachers are not available regularly in schools
+g21_list,g21_5,5,lack of qualified staff/teachers
+g21_list,g21_6,6,lack of seats in school
+g21_list,g21_7,7,lack of school supplies
+g21_list,g21_8,8,lack of electricity
+g21_list,g21_9,9,schools are damaged
+g21_list,g21_10,10,classrooms are crowded
+g21_list,g21_11,11,school is distant
+g21_list,g21_12,12,"lack of documentation for enrolment (previous study certificates, birth certificate, etc)"
+g21_list,g21_13,13,lack of female teacher
+g21_list,g21_14,14,"other, please specify"
+g21_list,g21_15,15,i don’t know
+g21_list,g21_16,16,i don’t want to answer
+g22_list,g22_1,1,households cannot afford educational expenses
+g22_list,g22_2,2,high cost of transportation for children and teachers
+g22_list,g22_3,3,children leave schools for work to support their families
+g22_list,g22_4,4,"other, please specify"
+g22_list,g22_5,5,i don’t know
+g22_list,g22_6,6,i don’t want to answer
+g23_list,g23_1,1,sickness
+g23_list,g23_2,2,having special needs
+g23_list,g23_3,3,both sickness and having special needs
+g23_list,g23_4,4,school meals are not provided for children and teachers
+g23_list,g23_5,5,"lack of water, sanitation and drinking facilities"
+g23_list,g23_6,6,lack of facilities for persons with special needs
+g23_list,g23_7,7,increase of psychological issues for children and teachers
+g23_list,g23_8,8,"other, please specify"
+g23_list,g23_9,9,i don’t know
+g23_list,g23_10,10,i don’t want to answer
+g24_list,g24_1,1,lack of safety and security
+g24_list,g24_2,2,lack of gendered facilities
+g24_list,g24_3,3,custom and traditions
+g24_list,g24_4,4,early marriage (at school age)
+g24_list,g24_5,5,"other, please specify"
+g24_list,g24_6,6,i don’t know
+g24_list,g24_7,7,i don’t want to answer
+g3_list,g3_1_a1_1,1,paying salaries for teachers_non_displaced
+g3_list,g3_2_a1_1,2,providing incentives for teachers_non_displaced
+g3_list,g3_3_a1_1,3,"providing educational materials (books, subjects)_non_displaced"
+g3_list,g3_4_a1_1,4,providing school seats_non_displaced
+g3_list,g3_5_a1_1,5,providing school supplies_non_displaced
+g3_list,g3_6_a1_1,6,providing integrated school bags_non_displaced
+g3_list,g3_7_a1_1,7,providing electricity_non_displaced
+g3_list,g3_8_a1_1,8,restoring and maintaining schools_non_displaced
+g3_list,g3_9_a1_1,9,building classrooms_non_displaced
+g3_list,g3_10,10,standardized tests
+g3_list,g3_11,11,providing school meals for teachers and children
+g3_list,g3_12,12,providing clean drinking water
+g3_list,g3_13,13,providing suitable gendered health facilities
+g3_list,g3_14,14,providing suitable facilities for persons with special needs
+g3_list,g3_15,15,treatment for psychological and educational issues of children
+g3_list,g3_16,16,ensuring safety and security of children and teachers
+g3_list,g3_17_a1_1,17,cooperation with community to get children back/into school_non_displaced
+g3_list,g3_18_a1_1,18,providing parent council_non_displaced
+g3_list,g3_19_a1_1,19,early childhood support/development_non_displaced
+g3_list,g3_20_a1_1,20,providing qualitied teachers_non_displaced
+g3_list,g3_21_a1_1,21,providing and supporting female teachers from rural areas_non_displaced
+g3_list,g3_22_a1_1,22,"other, please specify_non_displaced"
+g3_list,g3_23,23,i don’t know
+g3_list,g3_24_a1_1,24,i don’t want to answer_non_displaced
+g4_list,g4_1,1,"yes, all of them"
+g4_list,g4_2,2,some of them attend a lower grade
+g4_list,g4_3,3,some of them attend a higher grade
+g4_list,g4_4,4,"no, none of them"
+g4_list,g4_5,5,i don’t know
+g4_list,g4_6,6,i do not want to answer
+g5_list,g5_1,1,"yes, very satisfied"
+g5_list,g5_2,2,"yes, partially satisfied"
+g5_list,g5_3,3,"no, not satisfied"
+g5_list,g5_4,4,i do not know
+g5_list,g5_5,5,i do not want to answer
+g6_list,g6_1,1,lack of schoolbooks
+g6_list,g6_2,2,teachers not regularly present in the classroom
+g6_list,g6_3,3,"lack of equipment, supplies and textbooks"
+g6_list,g6_4,4,classrooms not suitable for learning
+g6_list,g6_5,5,wash facilities not available
+g7_list,g6_6,6,"other, please specify"
+g7_list,g6_7,7,i do not know
+g7_list,g6_8,8,i do not want to answer
+h1_list,h1_1,1,yes
+h1_list,h1_2,2,no
+h1_list,h1_3,3,i don’t know
+h1_list,h1_4,4,i don’t want to answer
+h2_list,h2_1,1,measles
+h2_list,h2_2,2,tuberculosis (tb)
+h2_list,h2_3,3,acute respiratory infection*
+h2_list,h2_4,4,diarrheal disease*
+h2_list,h2_5,5,polio (afp)
+h2_list,h2_6,6,epilepsy
+h2_list,h2_7,7,asthma
+h2_list,h2_8,8,malaria
+h2_list,h2_9,9,pertussis / whooping cough
+h2_list,h2_10,10,diphtheria
+h2_list,h2_11,11,hepatitis
+h2_list,h2_12,12,hypertension
+h2_list,h2_13,13,diabetes
+h2_list,h2_14,14,kidney disease
+h2_list,h2_15,15,cancer / malignancies
+h2_list,h2_16,16,mental illness
+h2_list,h2_17,17,typhoid
+h2_list,h2_18,18,burns
+h2_list,h2_19,19,skin disease (including scabies)
+h2_list,h2_20,20,malnutrition
+h2_list,h2_21,21,injuries
+h2_list,h2_22,22,"physical disabilities (amputees, contractures, limited sight/hearing)"
+h2_list,h2_23,23,"complications in pregnancy, childbirth, or post-partum"
+h2_list,h2_24,24,other specify
+h2_list,h2_25,25,i don’t know
+h2_list,h2_26,26,i don’t want to answer
+h322_list,h322_1,1,less than 5 years old
+h322_list,h322_2,2,5 – 15 years old
+h322_list,h322_3,3,16 – 35 years old
+h322_list,h322_4,4,36 – 60 years old
+h322_list,h322_5,5,more than 60 years old
+h4_list,h4_1,1,yes
+h4_list,h4_2,2,no
+h4_list,h4_3,3,i do not know
+h4_list,h4_4,4,i do not want to answer
+h5_list,h5_1,1,health unit (provides preventative and basic treatment)
+h5_list,h5_2,2,"health centre (provides preventative, diagnostic and curative services)"
+h5_list,h5_3,3,hospital
+h5_list,h5_4,4,private clinic
+h5_list,h5_5,5,community health worker
+h5_list,h5_6,6,pharmacy
+h5_list,h5_7,7,traditional medicine facility
+h5_list,h5_8,8,no facilities accessed
+h5_list,h5_9,9,"other, please specify"
+h5_list,h5_10,10,i don’t know
+h5_list,h5_11,11,i don’t want to answer
+h6_list,h6_1,1,less than 30 minutes
+h6_list,h6_2,2,30-60 minutes
+h6_list,h6_3,3,more than 60 minutes
+h6_list,h6_4,4,i don’t know
+h7_list,h7_1,1,general services
+h7_list,h7_2,2,trauma care
+h7_list,h7_3,3,immunization services
+h7_list,h7_4,4,integrated management of child illnesses (imci)
+h7_list,h7_5,5,"communicable disease services (tuberculosis, malaria, dengue, cholera, etc"
+h7_list,h7_6,6,"non-communicable disease services (diabetes, high blood pressure, asthma, epilepsy, mental illness, etc"
+h7_list,h7_7,7,mental health services
+h7_list,h7_8,8,"reproductive health services (antenatal, deliveries, family planning, post-natal, etc"
+h7_list,h7_9,9,"specialized care (dialysis, treatment for cancer, prosthetics, physiotherapy, etc"
+h7_list,h7_10,10,surgical services
+h7_list,h7_11,11,laboratory services
+h7_list,h7_12,12,blood bank services
+h7_list,h7_13,13,"radiological services (x-ray, ultrasound, ct-scan, etc"
+h7_list,h7_14,14,pharmacy services
+h7_list,h7_15,15,no services accessed
+h7_list,h7_16,16,i don’t know
+h7_list,h7_17,17,i don’t want to answer
+h8_list,h8_1,1,general services
+h8_list,h8_2,2,trauma care
+h8_list,h8_3,3,immunization services
+h8_list,h8_4,4,integrated management of child illnesses (imci)
+h8_list,h8_5,5,"communicable disease services (tuberculosis, malaria, dengue, cholera, etc"
+h8_list,h8_6,6,"non-communicable disease services (diabetes, high blood pressure, asthma, epilepsy, mental illness, etc"
+h8_list,h8_7,7,mental health services
+h8_list,h8_8,8,"reproductive health services (antenatal, deliveries, family planning, post-natal, etc"
+h8_list,h8_9,9,"specialized care (dialysis, treatment for cancer, prosthetics, physiotherapy, etc"
+h8_list,h8_10,10,surgical services
+h8_list,h8_11,11,laboratory services
+h8_list,h8_12,12,blood bank services
+h8_list,h8_13,13,"radiological services (x-ray, ultrasound, ct-scan, etc"
+h8_list,h8_14,14,pharmacy services
+h8_list,h8_15,15,all services accessible/available”
+h8_list,h8_16,16,i don’t know
+h8_list,h8_17,17,i don’t want to answer
+h9_list,h9_1_a1_5,1,yes_migrants
+h9_list,h9_2_a1_5,2,no_migrants
+h9_list,h9_3_a1_5,3,i do not know_migrants
+h9_list,h9_4_a1_5,4,i do not want to answer_migrants
+h11_list,h11_1,1,yes
+h11_list,h11_2,2,no
+h11_list,h11_3,3,i do not know
+h11_list,h11_4,4,i do not want to answer
+h12_list,h12_1,1,no transportation available
+h12_list,h12_2,2,high transportation cost to health facilities
+h12_list,h12_3,3,health facilities are not accessible for people with special needs (difficulty moving/seeing/hearing)
+h12_list,h12_4,4,health facilities do not open all working days of the week
+h12_list,h12_5,5,health facilities are not safe/risk of attack
+h12_list,h12_6,6,health facilities are not accessible because of security situation on the journey/ roads not accessible
+h12_list,h12_7,7,health facility is too far to be accessed
+h12_list,h12_8,8,"other, please specify"
+h13_list,h13_1,1,price of consultation/treatment (too expensive)
+h13_list,h13_2,2,required types of service not available
+h13_list,h13_3,3,the waiting time was too long
+h13_list,h13_4,4,absence of health workers
+h13_list,h13_5,5,lack of specialized medical and surgical staff
+h13_list,h13_6,6,lack of female health care providers
+h13_list,h13_7,7,lack of trust health care providers
+h13_list,h13_8,8,lack of privacy
+h13_list,h13_9,9,lack of available medicines
+h13_list,h13_10,10,medicine is not available in the health facility or in the market
+h13_list,h13_11,11,"lack of space to receive patients (insufficient treatment facilities, beds, rooms, etc"
+h13_list,h13_12,12,"other, please specify"
+h13_list,h13_13,13,none (we do not have any serious problems)
+h13_list,h13_14,14,i don’t know
+h13_list,h13_15,15,i don’t want to answer
+h14_list,h14_1,1,not treating illness
+h14_list,h14_2,2,using traditional medicine
+h14_list,h14_3,3,home remedies
+h14_list,h14_4,4,use pre-existing savings
+h14_list,h14_5,5,reduction of spending on food
+h14_list,h14_6,6,removal of children from school
+h14_list,h14_7,7,reliance on social support
+h14_list,h14_8,8,selling of assets
+h14_list,h14_9,9,borrowing
+h14_list,h14_10,10,none
+h14_list,h14_11,11,i don’t know
+h14_list,h14_12,12,i don’t want to answer
+h15_list,h15_1,1,specialized training for careers of household members with special needs
+h15_list,h15_2,2,provision of housing appropriate for people with special needs
+h15_list,h15_3,3,"provision of devices/items to support special needs (hearing aid, glasses, wheelchair, crutches, etc)"
+h15_list,h15_4,4,none
+h15_list,h15_5,5,i don’t know
+h17_list,h17_1,1,at home alone
+h17_list,h17_2,2,at home with non-professional care (unqualified or traditional mid-wife)
+h17_list,h17_3,3,in health facility
+h17_list,h17_4,4,"at home with professional care (skilled/trained female mid-wife, female doctor)"
+h19_list,h19_1_a1_1,1,no female medical staff at nearest health facility_nondisplaced
+h19_list,h19_2_a1_1,2,female midwives are not available in nearest health facility_nondisplaced
+h19_list,h19_3_a1_1,3,gynecologists are not available at the nearest hospital_nondisplaced
+h19_list,h19_4_a1_1,4,no separate waiting space for women/girls in nearest health facility_nondisplaced
+h19_list,h19_5_a1_1,5,women/girls face uncomfortable environment/mistreatment at health facilities_nondisplaced
+h19_list,h19_6_a1_1,6,lack of privacy in the health facility_nondisplaced
+h19_list,h19_7_a1_1,7,it is unsafe for women/girls to travel to the nearest health facility_nondisplaced
+h19_list,h19_8_a1_1,8,lack of companion to travel to health facilities with_nondisplaced
+h19_list,h19_9_a1_1,9,women/girls do not have necessary money to pay for health services/transport to health facility_nondisplaced
+h19_list,h19_10_a1_1,10,treatment requires approval from the head of household_nondisplaced
+h19_list,h19_11_a1_1,11,discrimination based on displacement status_nondisplaced
+h19_list,h19_12_a1_1,12,medicines needed are not available_nondisplaced
+h19_list,h19_13_a1_1,13,health facilities are overcrowded_nondisplaced
+h19_list,h19_14_a1_1,14,no (no issues in accessing health services/facilities)_nondisplaced
+h19_list,h19_15_a1_1,15,i don’t know_nondisplaced
+h19_list,h19_16_a1_1,16,i don’t want to answer_nondisplaced
+i1_list,i1_1,1,yes
+i1_list,i1_2,2,no
+i1_list,i1_3,3,i don’t know
+i1_list,i1_4,4,i don’t want to answer
+i2_list,i2_1,1,"abuse resulting from war (injuries, wounds etc)"
+i2_list,i2_2,2,gender-based abuse
+i2_list,i2_3,3,exploitation
+i2_list,i2_4,4,i don’t know
+i2_list,i2_5,5,i don’t want to answer
+i3_list,i3_1_a1_1,1,family_nondisplaced
+i3_list,i3_2_a1_1,2,friends_nondisplaced
+i3_list,i3_3_a1_1,3,mosques_nondisplaced
+i3_list,i3_4_a1_1,4,hospitals/ health centers_nondisplaced
+i3_list,i3_5_a1_1,5,female-led community organization_nondisplaced
+i3_list,i3_6_a1_1,6,community-organization_nondisplaced
+i3_list,i3_7_a1_1,7,local authorities_nondisplaced
+i3_list,i3_8_a1_1,8,police_nondisplaced
+i3_list,i3_9_a1_1,9,community leader_nondisplaced
+i3_list,i3_10_a1_1,10,i don’t know_nondisplaced
+i3_list,i3_11_a1_1,11,i don’t want to answer_nondisplaced
+i3_list,i3_1_a1_2,1,family_idps
+i3_list,i3_2_a1_2,2,friends_idps
+i3_list,i3_3_a1_2,3,mosques_idps
+i3_list,i3_4_a1_2,4,hospitals/ health centers_idps
+i3_list,i3_5_a1_2,5,female-led community organization_idps
+i3_list,i3_6_a1_2,6,community-organization_idps
+i3_list,i3_7_a1_2,7,local authorities_idps
+i3_list,i3_8_a1_2,8,police_idps
+i3_list,i3_9_a1_2,9,community leader_idps
+i3_list,i3_10_a1_2,10,i don’t know_idps
+i3_list,i3_11_a1_2,11,i don’t want to answer_idps
+i3_list,i3_1_a1_3,1,family_returnees
+i3_list,i3_2_a1_3,2,friends_returnees
+i3_list,i3_3_a1_3,3,mosques_returnees
+i3_list,i3_4_a1_3,4,hospitals/ health centers_returnees
+i3_list,i3_5_a1_3,5,female-led community organization_returnees
+i3_list,i3_6_a1_3,6,community-organization_returnees
+i3_list,i3_7_a1_3,7,local authorities_returnees
+i3_list,i3_8_a1_3,8,police_returnees
+i3_list,i3_9_a1_3,9,community leader_returnees
+i3_list,i3_10_a1_3,10,i don’t know_returnees
+i3_list,i3_11_a1_3,11,i don’t want to answer_returnees
+i3_list,i3_1_a1_4,1,family_refugees
+i3_list,i3_2_a1_4,2,friends_refugees
+i3_list,i3_3_a1_4,3,mosques_refugees
+i3_list,i3_4_a1_4,4,hospitals/ health centers_refugees
+i3_list,i3_5_a1_4,5,female-led community organization_refugees
+i3_list,i3_6_a1_4,6,community-organization_refugees
+i3_list,i3_7_a1_4,7,local authorities_refugees
+i3_list,i3_8_a1_4,8,police_refugees
+i3_list,i3_9_a1_4,9,community leader_refugees
+i3_list,i3_10_a1_4,10,i don’t know_refugees
+i3_list,i3_11_a1_4,11,i don’t want to answer_refugees
+i3_list,i3_1_a1_5,1,family_migrants
+i3_list,i3_2_a1_5,2,friends_migrants
+i3_list,i3_3_a1_5,3,mosques_migrants
+i3_list,i3_4_a1_5,4,hospitals/ health centers_migrants
+i3_list,i3_5_a1_5,5,female-led community organization_migrants
+i3_list,i3_6_a1_5,6,community-organization_migrants
+i3_list,i3_7_a1_5,7,local authorities_migrants
+i3_list,i3_8_a1_5,8,police_migrants
+i3_list,i3_9_a1_5,9,community leader_migrants
+i3_list,i3_10_a1_5,10,i don’t know_migrants
+i3_list,i3_11_a1_5,11,i don’t want to answer_migrants
+i4_list,i4_1,1,psychological support
+i4_list,i4_2,2,medical care / health
+i4_list,i4_3,3,livelihoods / rehabilitation
+i4_list,i4_4,4,legal assistance / access justice
+i4_list,i4_5,5,access to safe-spaces / shelter
+i4_list,i4_6,6,none
+i4_list,i4_7,7,i don’t know
+i4_list,i4_8,8,i don’t want to answer
+i5_list,i5_1,1,psychological
+i5_list,i5_2,2,medical care / health
+i5_list,i5_3,3,livelihoods / rehabilitation
+i5_list,i5_4,4,legal / justice
+i5_list,i5_5,5,access to safe-spaces / shelter
+i5_list,i5_6,6,none
+i5_list,i5_7,7,i don’t know
+i5_list,i5_8,8,i don’t want to answer
+i6_list,i6_1,1,difficulty of access
+i6_list,i6_2,2,cost of access
+i6_list,i6_3,3,lack of ngo response
+i6_list,i6_4,4,service is not available altogether
+i6_list,i6_5,5,not having civilian documents which allows the person to get assistance
+i6_list,i6_6,6,i don’t know how or where to get assistance
+i6_list,i6_7,7,due to customs and traditions / due to religious believes
+i7_list,i7_1,1,access to safe spaces / shelter
+i7_list,i7_2,2,best interest procedures for children (specialized protection services)
+i7_list,i7_3,3,specialized training for foster parents
+i7_list,i7_4,4,family reunification
+i7_list,i7_5,5,education
+i7_list,i7_6,6,none
+i7_list,i7_7,7,i don’t know
+i7_list,i7_8,8,i don’t want to answer
+i8_list,i8_1,1,provision of safe housing
+i8_list,i8_2,2,psychosocial support
+i8_list,i8_3,3,reproductive health services
+i8_list,i8_4,4,healthcare services
+i8_list,i8_5,5,livelihoods / rehabilitation
+i8_list,i8_6,6,access to justice / legal assistance
+i8_list,i8_7,7,none
+i8_list,i8_8,8,i don’t know
+i8_list,i8_9,9,i don’t want to answer
+j1_list,j1_1,1,employment full time
+j1_list,j1_2,2,employment part time
+j1_list,j1_3,3,day labour/casual labour
+j1_list,j1_4,4,self-employed
+j1_list,j1_5,5,pension
+j1_list,j1_6,6,remittances
+j1_list,j1_7,7,gifts from family/relatives
+j1_list,j1_8,8,begging
+j1_list,j1_9,9,borrowing money
+j1_list,j1_10,10,savings
+j1_list,j1_11,11,government assistance
+j1_list,j1_12,12,cash assistance from humanitarian actors
+j1_list,j1_13,13,no source of income
+j1_list,j1_14,14,i don’t know
+j1_list,j1_15,15,i don’t want to answer
+j2_list,j2_1,1,yes
+j2_list,j2_2,2,no
+j2_list,j2_3,3,i don’t know
+j2_list,j2_4,4,i don’t want to answer
+j3_list,j3_1,1,skills no longer required in the job market
+j3_list,j3_2,2,pre-retirement age
+j3_list,j3_3,3,limited/non-existent job market
+j3_list,j3_4,4,missing documentation
+j3_list,j3_5,5,place of work is inaccessible
+j3_list,j3_6,6,place of work in insecure location
+j3_list,j3_7,7,place of work is damaged/destroyed
+j3_list,j3_8,8,livelihood assets damaged/destroyed
+j3_list,j3_9,9,no funds/savings to continue investing
+j3_list,j3_10,10,poor health status
+j3_list,j3_11,11,discrimination from employers due to foreign nationality
+j3_list,j3_12,12,"discrimination from employers due to race, religion, political affiliation, regional variation, etc"
+j3_list,j3_13,13,language barriers
+j4_list,j4_1,1,yes
+j4_list,j4_2,2,no
+j4_list,j4_3,3,i don’t know
+j4_list,j4_4,4,i don’t want to answer
+j5_list,j5_1_a1_1,1,the market is often closed_nondisplaced
+j5_list,j5_2_a1_1,2,the market is damaged_nondisplaced
+j5_list,j5_3_a1_1,3,the market is too far to walk_nondisplaced
+j5_list,j5_4_a1_1,4,the market location is unsafe (including harassment and presence of landmines/uxo/airstrikes)_nondisplaced
+j5_list,j5_5_a1_1,5,there are crossing checkpoints on the way to the market_nondisplaced
+j5_list,j5_6_a1_1,6,the roads leading to the market are damaged_nondisplaced
+j5_list,j5_7_a1_1,7,there are no means of transportation to the market_nondisplaced
+j5_list,j5_8_a1_1,8,we cannot afford transportation costs to the market_nondisplaced
+j5_list,j5_9_a1_1,9,there are restrictions on movement / curfews_nondisplaced
+j5_list,j5_1_a1_2,1,the market is often closed_idps
+j5_list,j5_2_a1_2,2,the market is damaged_idps
+j5_list,j5_3_a1_2,3,the market is too far to walk_idps
+j5_list,j5_4_a1_2,4,the market location is unsafe (including harassment and presence of landmines/uxo/airstrikes)_idps
+j5_list,j5_5_a1_2,5,there are crossing checkpoints on the way to the market_idps
+j5_list,j5_6_a1_2,6,the roads leading to the market are damaged_idps
+j5_list,j5_7_a1_2,7,there are no means of transportation to the market_idps
+j5_list,j5_8_a1_2,8,we cannot afford transportation costs to the market_idps
+j5_list,j5_9_a1_2,9,there are restrictions on movement / curfews_idps
+j5_list,j5_1_a1_3,1,the market is often closed_returnees
+j5_list,j5_2_a1_3,2,the market is damaged_returnees
+j5_list,j5_3_a1_3,3,the market is too far to walk_returnees
+j5_list,j5_4_a1_3,4,the market location is unsafe (including harassment and presence of landmines/uxo/airstrikes)_returnees
+j5_list,j5_5_a1_3,5,there are crossing checkpoints on the way to the market_returnees
+j5_list,j5_6_a1_3,6,the roads leading to the market are damaged_returnees
+j5_list,j5_7_a1_3,7,there are no means of transportation to the market_returnees
+j5_list,j5_8_a1_3,8,we cannot afford transportation costs to the market_returnees
+j5_list,j5_9_a1_3,9,there are restrictions on movement / curfews_returnees
+j5_list,j5_1_a1_4,1,the market is often closed_refugees
+j5_list,j5_2_a1_4,2,the market is damaged_refugees
+j5_list,j5_3_a1_4,3,the market is too far to walk_refugees
+j5_list,j5_4_a1_4,4,the market location is unsafe (including harassment and presence of landmines/uxo/airstrikes)_refugees
+j5_list,j5_5_a1_4,5,there are crossing checkpoints on the way to the market_refugees
+j5_list,j5_6_a1_4,6,the roads leading to the market are damaged_refugees
+j5_list,j5_7_a1_4,7,there are no means of transportation to the market_refugees
+j5_list,j5_8_a1_4,8,we cannot afford transportation costs to the market_refugees
+j5_list,j5_9_a1_4,9,there are restrictions on movement / curfews_refugees
+j5_list,j5_10_a1_4,10,foreigners are not allowed to access local markets (only for migrants and refugees)_refugees
+j5_list,j5_1_a1_5,1,the market is often closed_migrants
+j5_list,j5_2_a1_5,2,the market is damaged_migrants
+j5_list,j5_3_a1_5,3,the market is too far to walk_migrants
+j5_list,j5_4_a1_5,4,the market location is unsafe (including harassment and presence of landmines/uxo/airstrikes)_migrants
+j5_list,j5_5_a1_5,5,there are crossing checkpoints on the way to the market_migrants
+j5_list,j5_6_a1_5,6,the roads leading to the market are damaged_migrants
+j5_list,j5_7_a1_5,7,there are no means of transportation to the market_migrants
+j5_list,j5_8_a1_5,8,we cannot afford transportation costs to the market_migrants
+j5_list,j5_9_a1_5,9,there are restrictions on movement / curfews_migrants
+j5_list,j5_10_a1_5,11,foreigners are not allowed to access local markets (only for migrants and refugees)_migrants
+j6_list,j6_1,1,yes
+j6_list,j6_2,2,no
+j6_list,j6_3,3,i don’t know
+j6_list,j6_4,4,i don’t want to answer
+j7_list,j7_1,1,"sell assets/goods (radio, furniture, tv, etc"
+j7_list,j7_2,2,"sell productive assets/means of transport (livestock, sewing machine, car, etc"
+j7_list,j7_3,3,sell house or land
+j7_list,j7_4,4,spend savings
+j7_list,j7_5,5,purchase food on credit or borrowed food
+j7_list,j7_6,6,"reduce expenses on basic needs (food, shelter, health, etc"
+j7_list,j7_7,7,"reduce expenses on transportation, education, household appliances, clothing, entertainment, etc"
+j7_list,j7_8,8,household member sent to eat/live with another family
+j7_list,j7_9,9,household member move elsewhere in search of work
+j7_list,j7_10,10,"household member resort to an illegal, high risk or degrading job"
+j7_list,j7_11,11,marriage
+j7_list,j7_12,12,look for alternative income source
+j7_list,j7_13,13,resort to withdraw loans
+j7_list,j7_14,14,"begging, including from children"
+j8_list,j8_1,1,yes
+j8_list,j8_2,2,no
+j8_list,j8_3,3,i don’t know
+j8_list,j8_4,4,i don’t want to answer
+j9_list,j9_1,1,debt due to missing rent payments
+j9_list,j9_2,2,debt due to purchasing food on credit
+j9_list,j9_3,3,"debt due to purchasing productive inputs on credit (seeds, soil, fertilizer, etc"
+j9_list,j9_4,4,"debt due to purchasing assets (livestock, transportation, house, etc"
+j9_list,j9_5,5,debt due medical fees
+j9_list,j9_6,6,debt due education fees (school materials and school enrolment fees)
+j9_list,j9_7,7,debt due to legal fees
+j9_list,j9_8,8,debt due to funeral/marriage arrangements
+j9_list,j9_9,9,debt due to costs related to the migration of one or multiple household members
+j9_list,j9_10,10,debt due to personal loans owed to financial institutions
+j10_list,j10_1,1,drugs/vaccination and treatment for livestock
+j10_list,j10_2,2,water for livestock
+j10_list,j10_3,3,small ruminants
+j10_list,j10_4,4,water for agricultural use
+j10_list,j10_5,5,cereal seeds/vegetable seeds
+j10_list,j10_6,6,fishing equipment
+j10_list,j10_7,7,hand tools
+j10_list,j10_8,8,capacity building training
+j10_list,j10_9,9,vocational training
+j10_list,j10_10,10,education
+j10_list,j10_11,11,employment opportunities
+j10_list,j10_12,12,business grants
+j10_list,j10_13,13,i don’t know
+j10_list,j10_14,14,i don’t want to answer
+k1_list,k1_1,1,yes
+k1_list,k1_2,2,no
+k1_list,k1_3,3,i don’t know
+k1_list,k1_4,4,i don’t want to answer
+k2_list,k2_1,1,ngo
+k2_list,k2_2,2,un agency
+k2_list,k2_3,3,government agency
+k2_list,k2_4,4,i don’t know
+k2_list,k2_5,5,i don’t want to answer
+k3_list,k3_1,1,once
+k3_list,k3_2,2,twice
+k3_list,k3_3,3,three or more times
+k3_list,k3_4,4,i don’t know
+k3_list,k3_5,5,i don’t want to answer
+k4_list,k4_1,1,"cash – multi-purpose, conditional"
+k4_list,k4_2,2,"cash – multi-purpose, non-conditional"
+k4_list,k4_3,3,voucher
+k4_list,k4_4,4,i don’t know
+k4_list,k4_5,5,i don’t want to answer
+l1_list,l1_1,1,yes
+l1_list,l1_2,2,no
+l1_list,l1_3,3,i don’t know
+l1_list,l1_4,4,i don’t want to answer
+l2_list,l2_1,1,food
+l2_list,l2_2,2,nutrition
+l2_list,l2_3,3,shelter
+l2_list,l2_4,4,nfi
+l2_list,l2_5,5,water
+l2_list,l2_6,6,sanitation
+l2_list,l2_7,7,education assistance/material
+l2_list,l2_8,8,health/medical assistance
+l2_list,l2_9,9,protection services for women
+l2_list,l2_10,10,protection services for children
+l2_list,l2_11,11,legal assistance
+l2_list,l2_12,12,psychological support
+l2_list,l2_13,13,services for elderly persons
+l2_list,l2_14,14,services for persons with special needs
+l2_list,l2_15,15,risk education on explosive hazard
+l2_list,l2_16,16,livelihood support*
+l2_list,l2_17,17,multipurpose cash assistance
+l2_list,l2_18,18,i don’t know
+l2_list,l2_19,19,i don’t want to answer
+l3_list,l3_1,1,humanitarian agencies*
+l3_list,l3_2,2,local authority (district/village)
+l3_list,l3_3,3,host community
+l3_list,l3_4,4,community leader
+l3_list,l3_5,5,community volunteers
+l3_list,l3_6,6,religious groups
+l3_list,l3_7,7,friends/relatives
+l3_list,l3_8,8,traders
+l3_list,l3_9,9,i don’t know
+l3_list,l3_10,10,i don’t want to answer
+l4_list,l4_1,1,fully
+l4_list,l4_2,2,partially
+l4_list,l4_3,3,not satisfied
+l5_list,l5_1,1,assistance provided was not enough (quantity) to cover needs
+l5_list,l5_2,2,assistance provided was not good enough (quality) to cover needs
+l5_list,l5_3,3,assistance provided not relevant to the priority needs
+l5_list,l5_4,4,"assistance was not delivered in a fair, impartial manner"
+l5_list,l5_5,5,assistance was not delivered in time to address needs
+l5_list,l5_6,6,"assistance was not free, payment or favours were required"
+l5_list,l5_7,7,civil documentation required to obtain assistance
+l5_list,l5_8,8,the humanitarian staff who provided the services did not treat the people well
+l5_list,l5_9,9,i had to pay a lot of money to transport the assistance provided or to access the distribution site
+l5_list,l5_10,10,"the location where the assistance was provided/distributed was not optimal (far away, unsafe, not easy to access, etc"
+l5_list,l5_11,11,"the communication about time, location, and requirement of assistance was unclear"
+l5_list,l5_12,12,i don’t know
+l5_list,l5_13,13,i don’t want to answer
+l6_list,l6_1,1,fully
+l6_list,l6_2,2,partially
+l6_list,l6_3,3,not satisfied
+l8_list,l8_1,1,assistance was not required/household was well-off/ did not meet eligibility criteria
+l8_list,l8_2,2,inadequate distribution systems
+l8_list,l8_3,3,difficult to access distribution centres
+l8_list,l8_4,4,poorly informed about humanitarian assistance
+l8_list,l8_5,5,didn’t know how to access humanitarian assistance
+l10_list,l10_1_a1_1,1,how to register for assistance_nondisplaced
+l10_list,l10_2_a1_1,2,the security situation here (in place of residency)_nondisplaced
+l10_list,l10_3_a1_1,3,the security situation in the place of origin_nondisplaced
+l10_list,l10_4_a1_1,4,relocation services_nondisplaced
+l10_list,l10_5_a1_1,5,family reunification services_nondisplaced
+l10_list,l10_6_a1_1,6,how to get food_nondisplaced
+l10_list,l10_7_a1_1,7,how to get shelter/accommodation/shelter materials_nondisplaced
+l10_list,l10_8_a1_1,8,how to get water for drinking and/or household purposes_nondisplaced
+l10_list,l10_9_a1_1,9,how to access to education_nondisplaced
+l10_list,l10_10_a1_1,10,how to get healthcare/medical attention_nondisplaced
+l10_list,l10_11_a1_1,11,how to get help after attack or harassment_nondisplaced
+l10_list,l10_12_a1_1,12,how to obtain / replace personal documentation (eg_nondisplaced
+l10_list,l10_13_a1_1,13,how to find work_nondisplaced
+l10_list,l10_14_a1_1,14,how to get cash assistance_nondisplaced
+l10_list,l10_15_a1_1,15,how to get transport_nondisplaced
+l10_list,l10_16_a1_1,16,the humanitarian actors providing assistance_nondisplaced
+l10_list,l10_17_a1_1,17,how to complain about the assistance received_nondisplaced
+l10_list,l10_19_a1_1,19,other (please specify)_nondisplaced
+l10_list,l10_1_a1_2,1,how to register for assistance_idps
+l10_list,l10_2_a1_2,2,the security situation here (in place of residency)_idps
+l10_list,l10_3_a1_2,3,the security situation in the place of origin_idps
+l10_list,l10_4_a1_2,4,relocation services_idps
+l10_list,l10_5_a1_2,5,family reunification services_idps
+l10_list,l10_6_a1_2,6,how to get food_idps
+l10_list,l10_7_a1_2,7,how to get shelter/accommodation/shelter materials_idps
+l10_list,l10_8_a1_2,8,how to get water for drinking and/or household purposes_idps
+l10_list,l10_9_a1_2,9,how to access to education_idps
+l10_list,l10_10_a1_2,10,how to get healthcare/medical attention_idps
+l10_list,l10_11_a1_2,11,how to get help after attack or harassment_idps
+l10_list,l10_12_a1_2,12,how to obtain / replace personal documentation (eg_idps
+l10_list,l10_13_a1_2,13,how to find work_idps
+l10_list,l10_14_a1_2,14,how to get cash assistance_idps
+l10_list,l10_15_a1_2,15,how to get transport_idps
+l10_list,l10_16_a1_2,16,the humanitarian actors providing assistance_idps
+l10_list,l10_17_a1_2,17,how to complain about the assistance received_idps
+l10_list,l10_19_a1_2,19,other (please specify)_idps
+l10_list,l10_1_a1_3,1,how to register for assistance_returnees
+l10_list,l10_2_a1_3,2,the security situation here (in place of residency)_returnees
+l10_list,l10_3_a1_3,3,the security situation in the place of origin_returnees
+l10_list,l10_4_a1_3,4,relocation services_returnees
+l10_list,l10_5_a1_3,5,family reunification services_returnees
+l10_list,l10_6_a1_3,6,how to get food_returnees
+l10_list,l10_7_a1_3,7,how to get shelter/accommodation/shelter materials_returnees
+l10_list,l10_8_a1_3,8,how to get water for drinking and/or household purposes_returnees
+l10_list,l10_9_a1_3,9,how to access to education_returnees
+l10_list,l10_10_a1_3,10,how to get healthcare/medical attention_returnees
+l10_list,l10_11_a1_3,11,how to get help after attack or harassment_returnees
+l10_list,l10_12_a1_3,12,how to obtain / replace personal documentation (eg_returnees
+l10_list,l10_13_a1_3,13,how to find work_returnees
+l10_list,l10_14_a1_3,14,how to get cash assistance_returnees
+l10_list,l10_15_a1_3,15,how to get transport_returnees
+l10_list,l10_16_a1_3,16,the humanitarian actors providing assistance_returnees
+l10_list,l10_17_a1_3,17,how to complain about the assistance received_returnees
+l10_list,l10_19_a1_3,19,other (please specify)_returnees
+l10_list,l10_1_a1_4,1,how to register for assistance_refugees
+l10_list,l10_2_a1_4,2,the security situation here (in place of residency)_refugees
+l10_list,l10_3_a1_4,3,the security situation in the place of origin_refugees
+l10_list,l10_4_a1_4,4,relocation services_refugees
+l10_list,l10_5_a1_4,5,family reunification services_refugees
+l10_list,l10_6_a1_4,6,how to get food_refugees
+l10_list,l10_7_a1_4,7,how to get shelter/accommodation/shelter materials_refugees
+l10_list,l10_8_a1_4,8,how to get water for drinking and/or household purposes_refugees
+l10_list,l10_9_a1_4,9,how to access to education_refugees
+l10_list,l10_10_a1_4,10,how to get healthcare/medical attention_refugees
+l10_list,l10_11_a1_4,11,how to get help after attack or harassment_refugees
+l10_list,l10_12_a1_4,12,how to obtain / replace personal documentation (eg_refugees
+l10_list,l10_13_a1_4,13,how to find work_refugees
+l10_list,l10_14_a1_4,14,how to get cash assistance_refugees
+l10_list,l10_15_a1_4,15,how to get transport_refugees
+l10_list,l10_16_a1_4,16,the humanitarian actors providing assistance_refugees
+l10_list,l10_17_a1_4,17,how to complain about the assistance received_refugees
+l10_list,l10_18_a1_4,18,how to register with unhcr/bra (bureau for refugees affairs)/ipna_refugees
+l10_list,l10_19_a1_4,19,other (please specify)_refugees
+l10_list,l10_1_a1_5,1,how to register for assistance_migrants
+l10_list,l10_2_a1_5,2,the security situation here (in place of residency)_migrants
+l10_list,l10_3_a1_5,3,the security situation in the place of origin_migrants
+l10_list,l10_4_a1_5,4,relocation services_migrants
+l10_list,l10_5_a1_5,5,family reunification services_migrants
+l10_list,l10_6_a1_5,6,how to get food_migrants
+l10_list,l10_7_a1_5,7,how to get shelter/accommodation/shelter materials_migrants
+l10_list,l10_8_a1_5,8,how to get water for drinking and/or household purposes_migrants
+l10_list,l10_9_a1_5,9,how to access to education_migrants
+l10_list,l10_10_a1_5,10,how to get healthcare/medical attention_migrants
+l10_list,l10_11_a1_5,11,how to get help after attack or harassment_migrants
+l10_list,l10_12_a1_5,12,how to obtain / replace personal documentation (eg_migrants
+l10_list,l10_13_a1_5,13,how to find work_migrants
+l10_list,l10_14_a1_5,14,how to get cash assistance_migrants
+l10_list,l10_15_a1_5,15,how to get transport_migrants
+l10_list,l10_16_a1_5,16,the humanitarian actors providing assistance_migrants
+l10_list,l10_17_a1_5,17,how to complain about the assistance received_migrants
+l10_list,l10_19_a1_5,19,how to register with unhcr/bra (bureau for refugees affairs)/ipna_migrants
+l11_list,l11_1,1,community leader
+l11_list,l11_2,2,places of worship
+l11_list,l11_3,3,government officials
+l11_list,l11_4,4,friends/family
+l11_list,l11_5,5,humanitarian workers from the un
+l11_list,l11_6,6,humanitarian workers from local ngos
+l11_list,l11_7,7,humanitarian workers from international ngos
+l11_list,l11_8,8,i don’t know
+l11_list,l11_9,9,i don’t want to answer
+l12_list,l12_1,1,phone call
+l12_list,l12_2,2,sms
+l12_list,l12_3,3,whatsapp
+l12_list,l12_4,4,e-mail
+l12_list,l12_5,5,"social media (facebook, twitter, etc"
+l12_list,l12_6,6,television
+l12_list,l12_7,7,community gathering/meetings/community-based protection network members
+l12_list,l12_8,8,private face to face meeting
+l12_list,l12_9,9,newspapers
+l12_list,l12_10,10,billboards
+l12_list,l12_11,11,posters
+l12_list,l12_12,12,leaflets
+l12_list,l12_13,13,loudspeakers
+l12_list,l12_14,14,i don’t know
+l12_list,l12_15,15,i don’t want to answer
+l13_list,l13_1,1,yes
+l13_list,l13_2,2,no
+l13_list,l13_3,3,i don’t know
+l16_list,l16_1,1,phone call
+l16_list,l16_2,2,sms
+l16_list,l16_3,3,whatsapp
+l16_list,l16_4,4,e-mail
+l16_list,l16_5,5,"social media (facebook, twitter, etc"
+l16_list,l16_6,6,television
+l16_list,l16_7,7,community gathering/meetings/community-based protection network members
+l16_list,l16_8,8,private face to face meeting
+l16_list,l16_9,9,newspapers
+l16_list,l16_10,10,billboards
+l16_list,l16_11,11,posters
+l16_list,l16_12,12,leaflets
+l16_list,l16_13,13,loudspeakers
+l16_list,l16_14,14,i don’t know
+l16_list,l16_15,15,i don’t want to answer
+governorate,YE11,Ibb,ibb
+governorate,YE12,Abyan,abyan
+governorate,YE13,Amanat Al Asimah,amanat al asimah
+governorate,YE14,Al Bayda,al bayda
+governorate,YE15,Taizz,taizz
+governorate,YE16,Al Jawf,al jawf
+governorate,YE17,Hajjah,hajjah
+governorate,YE18,Al Hudaydah,al hudaydah
+governorate,YE19,Hadramaut,hadramaut
+governorate,YE20,Dhamar,dhamar
+governorate,YE21,Shabwah,shabwah
+governorate,YE22,Sa'ada,sa'ada
+governorate,YE23,Sana'a,sana'a
+governorate,YE24,Aden,aden
+governorate,YE25,Lahj,lahj
+governorate,YE26,Marib,marib
+governorate,YE27,Al Mahwit,al mahwit
+governorate,YE28,Al Maharah,al maharah
+governorate,YE29,Amran,amran
+governorate,YE30,Al Dhale'e,al dhale'e
+governorate,YE31,Raymah,raymah
+governorate,YE32,Socotra,socotra
